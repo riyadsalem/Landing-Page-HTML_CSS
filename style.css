@@ -18,6 +18,7 @@ header {
   background-color: #5b5b5b;
   width: 60px;
   height: 60px;
+  padding-top: 5px;
   border-radius: 50%;
   border: none;
 }
@@ -31,7 +32,7 @@ header {
   justify-content: center;
   width: 100%;
   height: 90vh;
-  padding: 50px 100px;
+  padding: 100px;
 }
 
 .main-img {
@@ -60,8 +61,8 @@ header {
 }
 
 .description1 {
-  width: 70%;
-  font-size: 20px;
+  width: 90%;
+  font-size: 25px;
   color: #565656;
   line-height: 1.6;
   letter-spacing: 1px;
@@ -71,9 +72,100 @@ header {
   color: #565656;
   margin-top: 30px;
   background-color: #ffffff;
-  padding: 0.5em 2.1875em;
+  padding: 0.8em 2.1875em;
   letter-spacing: 1px;
   border: 1px solid #565656;
   border-radius: 50px;
   text-transform: uppercase;
+}
+
+/* End: SECTION One */
+
+hr {
+  width: 80%;
+}
+
+.section-end {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  padding: 200px 150px 0 150px;
+  background-color: #f7f7f7;
+}
+
+.section-end-1 {
+  width: 50%;
+  margin-right: 50px;
+}
+
+.section-end-2 {
+  width: 50%;
+}
+
+.description-end {
+  width: 95%;
+  font-size: 18px;
+  color: #565656;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  padding-bottom: 20px;
+}
+
+.title-end {
+  font-size: 30px;
+  font-weight: 300;
+  color: #565656;
+  padding: 20px 0;
+}
+
+.social-icons a {
+  border-radius: 50%;
+  border: 1px solid #565656;
+  padding: 7px 12px;
+  margin-right: 8px;
+  color: #565656;
+}
+
+hr {
+  width: 60px;
+}
+
+input {
+  border-radius: 10px;
+  border: 1px solid #d5d5d5;
+  width: 42%;
+  padding: 5px 30px 5px 10px;
+  margin-right: 25px;
+  font-size: 15px;
+  color: #d5d5d5;
+}
+
+textarea {
+  border-radius: 10px;
+  border: 0.5px solid #d5d5d5;
+  width: 90%;
+  padding: 5px 30px 5px 10px;
+  margin: 30px 50px 0 0;
+  font-size: 15px;
+  color: #d5d5d5;
+}
+
+.section-end-end {
+  height: 20vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 150px;
+  background-color: #f7f7f7;
+}
+
+.section-end-end hr {
+  color: #d5d5d5;
+}
+
+.section-end-end p {
+  color: #d5d5d5;
+  margin-top: 10px;
 }
