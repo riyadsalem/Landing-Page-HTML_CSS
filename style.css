@@ -169,3 +169,44 @@ textarea {
   color: #d5d5d5;
   margin-top: 10px;
 }
+
+/* End: SECTION End */
+
+.section-4 {
+  width: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: url(images/img2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h4 {
+  color: black;
+  font-size: 24px;
+  font-weight: 800;
+}
+.description-sec-4 {
+  width: 55%;
+  font-size: 17px;
+  color: black;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+
+.min-btn-sec-4 {
+  color: black;
+  margin-top: 30px;
+  padding: 0.8em 2.1875em;
+  letter-spacing: 1px;
+  border: 1px solid #565656;
+  border-radius: 50px;
+  text-transform: uppercase;
+  opacity: 0.6;
+  font-size: 15px;
+}
